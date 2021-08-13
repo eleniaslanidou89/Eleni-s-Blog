@@ -1,15 +1,17 @@
 import React from 'react';
-import './App.css';
 import Navbar from './components/Navbar';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import './App.css';
+
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
 
 function App() {
   return (
     <>
-    <Router>
-      <Navbar/>
-
-    </Router>
+      <Router>
+        <Navbar />
+      
+      </Router>
     </>
   );
 }

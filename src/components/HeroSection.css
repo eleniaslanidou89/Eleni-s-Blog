@@ -31,7 +31,17 @@ video {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif;
   }
-  
+
+  .hero-container > span {
+    align: flex-center;
+    margin-top: 8px;
+    width: 50%;
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+
   .hero-btns {
     margin-top: 32px;
   }

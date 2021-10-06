@@ -7,13 +7,13 @@ function Footer() {
   return (
     <div className="footer-container">
       <section className="footer-subscription">
-        <p className="footer-subscription-heading">
+        {/* <p className="footer-subscription-heading">
           Join the Adventure newsletter to receive our best vacation deals
         </p>
         <p className="footer-subscription-text">
           You can unsubscribe at any time.
-        </p>
-        <div className="input-areas">
+        </p> */}
+        {/* <div className="input-areas">
           <form>
             <input
               className="footer-input"
@@ -23,40 +23,14 @@ function Footer() {
             />
             <Button buttonStyle="btn--outline">Subscribe</Button>
           </form>
-        </div>
+        </div> */}
       </section>
       <div class="footer-links">
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
-            <h2>About Blog</h2>
-            <Link to="/sign-up">Why I made this Blog?</Link>
-            <Link to="/">Testimonials</Link>
-            <Link to="/">Careers</Link>
-            <Link to="/">Investors</Link>
-            <Link to="/">Terms of Service</Link>
-          </div>
-          <div class="footer-link-items">
             <h2>Contact Me</h2>
-            <Link to="/">Contact</Link>
-            <Link to="/">Support</Link>
-            <Link to="/">Destinations</Link>
-            <Link to="/">Sponsorships</Link>
-          </div>
-        </div>
-        <div className="footer-link-wrapper">
-          <div class="footer-link-items">
-            <h2>Videos</h2>
-            <Link to="/">Submit Video</Link>
-            <Link to="/">Ambassadors</Link>
-            <Link to="/">Agency</Link>
-            <Link to="/">Influencer</Link>
-          </div>
-          <div class="footer-link-items">
-            <h2>Social Media</h2>
-            <Link to="/">Instagram</Link>
-            <Link to="/">Facebook</Link>
-            <Link to="/">Youtube</Link>
-            <Link to="/">Twitter</Link>
+            <Link to="/"><i class="fas fa-envelope"></i>helena.aslanidou@gmail.com</Link>
+            <Link to="/"><i class="fab fa-linkedin" />https://www.linkedin.com/in/eleni-aslanidou/</Link>
           </div>
         </div>
       </div>
@@ -64,10 +38,10 @@ function Footer() {
         <div class="social-media-wrap">
           <div class="footer-logo">
             <Link to="/" className="social-logo">
-              Eleni's Blog
+              Eleni's Portfolio
             </Link>
           </div>
-          <small class="website-rights">Eleni's Blog © 2020</small>
+          <small class="website-rights">Eleni's Portfolio © 2021</small>
           <div class="social-icons">
             <Link
               class="social-icon-link facebook"

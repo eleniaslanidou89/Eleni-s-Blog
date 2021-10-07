@@ -32,6 +32,29 @@ function Footer() {
             <Link to="/"><i class="fas fa-envelope"></i>helena.aslanidou@gmail.com</Link>
             <Link to="/"><i class="fab fa-linkedin" />https://www.linkedin.com/in/eleni-aslanidou/</Link>
           </div>
+          <div class="footer-link-items">
+            <h2>CODE:</h2>
+            <Link to="/">JavaScript</Link>
+            <Link to="/">HTML5</Link>
+            <Link to="/">CSS</Link>
+            <Link to="/">GraphQL</Link>
+            <Link to="/">Bootstrap</Link>
+            <Link to="/">Material UI</Link>
+            <Link to="/">Tailwind</Link>
+            <Link to="/">CSSModules</Link>
+          </div>
+          <div class="footer-link-items">
+            <h2>Framework:</h2>
+            <Link to="/">React.js</Link>
+            <Link to="/">Angular</Link>
+            <Link to="/">Next.js</Link>
+            <Link to="/">Vue.js</Link>
+          </div>
+          <div class="footer-link-items">
+            <h2>Contact Me</h2>
+            <Link to="/"><i class="fas fa-envelope"></i>helena.aslanidou@gmail.com</Link>
+            <Link to="/"><i class="fab fa-linkedin" />https://www.linkedin.com/in/eleni-aslanidou/</Link>
+          </div>
         </div>
       </div>
       <section class="social-media">

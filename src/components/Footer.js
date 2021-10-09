@@ -9,27 +9,18 @@ function Footer() {
         <div className="footer-link-wrapper">
           <div class="footer-link-items contact">
             <h2>Contact Me</h2>
-            <Link to="" target="_blank" aria-label="email">
+            <a href="">
               <i class="fas fa-envelope" />
               helena.aslanidou@gmail.com
-            </Link>
+            </a>
             <a href="https://www.linkedin.com/in/eleni-aslanidou/">
               <i class="fab fa-linkedin" />
+              eleni-aslanidou
             </a>
-            <Link
-              link="https://www.linkedin.com/in/eleni-aslanidou/"
-              // target="_blank"
-              aria-label="LinkedIn"
-            >
-              <i class="fab fa-linkedin" />
-            </Link>
-            <Link
-              to=" https://github.com/eleniaslanidou89"
-              target="_blank"
-              aria-label="GitHub"
-            >
+            <a href="https://github.com/eleniaslanidou89">
               <i class="fab fa-github-square" />
-            </Link>
+              eleniaslanidou89
+            </a>
           </div>
           <div class="footer-link-items">
             <h2>Code</h2>

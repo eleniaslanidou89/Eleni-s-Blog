@@ -8,23 +8,24 @@ function Footer() {
       <div class="footer-links">
         <div className="footer-link-wrapper">
           <div class="footer-link-items contact">
-            <h2>Contact Me</h2>
+            <h3>Contact Me</h3>
             <a href="">
-              <i class="fas fa-envelope" />
+              <i class="fas fa-envelope social" />
               helena.aslanidou@gmail.com
             </a>
             <a href="https://www.linkedin.com/in/eleni-aslanidou/">
-              <i class="fab fa-linkedin" />
+              <i class="fab fa-linkedin social" />
               eleni-aslanidou
             </a>
             <a href="https://github.com/eleniaslanidou89">
-              <i class="fab fa-github-square" />
+              <i class="fab fa-github-square social" />
               eleniaslanidou89
             </a>
           </div>
           <div class="footer-link-items">
-            <h2>Code</h2>
+            <h3>Code</h3>
             <Link to="">JavaScript</Link>
+            <Link to="">Typescript</Link>
             <Link to="">HTML5</Link>
             <Link to="">CSS</Link>
             <Link to="">GraphQL</Link>
@@ -34,14 +35,14 @@ function Footer() {
             <Link to="">CSSModules</Link>
           </div>
           <div class="footer-link-items">
-            <h2>Framework</h2>
+            <h3>Framework</h3>
             <Link to="">React.js</Link>
             <Link to="">Angular</Link>
             <Link to="">Next.js</Link>
             <Link to="">Vue.js</Link>
           </div>
           <div class="footer-link-items">
-            <h2>Toolbox</h2>
+            <h3>Toolbox</h3>
             <Link to="">Visual Studio Code</Link>
             <Link to="">Trello</Link>
             <Link to="">Slack</Link>

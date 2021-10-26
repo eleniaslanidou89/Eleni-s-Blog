@@ -7,7 +7,7 @@ function Footer() {
     <div className="footer-container">
       <div class="footer-links">
         <div className="footer-link-wrapper">
-          <div class="footer-link-items contact">
+          <div class="footer-link-items">
             <h3>Contact Me</h3>
             <a href="">
               <i class="fas fa-envelope social" />
@@ -24,34 +24,39 @@ function Footer() {
           </div>
           <div class="footer-link-items">
             <h3>Code</h3>
-            <Link to="">JavaScript</Link>
-            <Link to="">Typescript</Link>
-            <Link to="">HTML5</Link>
-            <Link to="">CSS</Link>
-            <Link to="">GraphQL</Link>
-            <Link to="">Bootstrap</Link>
-            <Link to="">Material UI</Link>
-            <Link to="">Tailwind</Link>
-            <Link to="">CSSModules</Link>
+            <p>JavaScript</p>
+            <p>Typescript</p>
+            <p>HTML5</p>
+            <p>CSS</p>
+            <p>GraphQL</p>
+            <p>Bootstrap</p>
+            <p>Material UI</p>
+            <p>Tailwind</p>
+            <p>CSSModules</p>
           </div>
           <div class="footer-link-items">
             <h3>Framework</h3>
-            <Link to="">React.js</Link>
-            <Link to="">Angular</Link>
-            <Link to="">Next.js</Link>
-            <Link to="">Vue.js</Link>
+            <p>JavaScript</p>
+            <p>Typescript</p>
+            <p>HTML5</p>
+            <p>CSS</p>
+            <p>GraphQL</p>
+            <p>Bootstrap</p>
+            <p>Material UI</p>
+            <p>Tailwind</p>
+            <p>CSSModules</p>
           </div>
           <div class="footer-link-items">
             <h3>Toolbox</h3>
-            <Link to="">Visual Studio Code</Link>
-            <Link to="">Trello</Link>
-            <Link to="">Slack</Link>
-            <Link to="">GitHub</Link>
-            <Link to="">Fork</Link>
-            <Link to="">Linear</Link>
-            <Link to="">Figma</Link>
-            <Link to="">Sketch</Link>
-            <Link to="">Miro</Link>
+            <p>Visual Studio Code</p>
+            <p>Trello</p>
+            <p>Slack</p>
+            <p>GitHub</p>
+            <p>Fork</p>
+            <p>Linear</p>
+            <p>Figma</p>
+            <p>Sketch</p>
+            <p>Miro</p>
           </div>
         </div>
       </div>

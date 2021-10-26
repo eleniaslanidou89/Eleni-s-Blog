@@ -35,16 +35,21 @@
   align-items: flex-start;
   margin: 16px;
   text-align: center;
-  width: 280px;
+  width: 220px;
   box-sizing: border-box;
 }
 
 .footer-link-items h3 {
-  margin-bottom: 16px;
+  margin-bottom: 7px;
 }
-
 .footer-link-items > h3 {
   color: #fff;
+}
+
+.footer-link-items > p {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-size: 18px;
 }
 
 .footer-link-items a {
@@ -54,7 +59,7 @@
 }
 
 .footer-link-items a:hover {
-  color: #e9e9e9;
+  color: #0000FF;
   transition: 0.3s ease-out;
 }
 
